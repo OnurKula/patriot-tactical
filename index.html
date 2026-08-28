@@ -1,0 +1,953 @@
+﻿<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Patriot Tactical Perú | Ropa Táctica, Botas Militares y Mochilas MOLLE</title>
+<meta name="description" content="Pantalones ripstop, botas tácticas impermeables, casacas softshell y mochilas MOLLE de grado militar. Envíos a todo el Perú. Yape, Plin y transferencia. Asesoría de tallas por WhatsApp.">
+<meta name="theme-color" content="#0b0d10">
+<link rel="icon" href="patriot.jpg">
+<link rel="canonical" href="https://patriottacticalperu.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Patriot Tactical Perú">
+<meta property="og:title" content="Patriot Tactical Perú | Equipo táctico de grado militar">
+<meta property="og:description" content="Pantalones ripstop, botas impermeables y mochilas MOLLE. Envíos a todo el Perú y asesoría directa por WhatsApp.">
+<meta property="og:image" content="patriot.jpg">
+<meta property="og:locale" content="es_PE">
+
+<!-- Fuentes -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=Barlow:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          char:  '#0b0d10',
+          gun:   '#14171d',
+          steel: '#1e232b',
+          olive: { DEFAULT: '#4b5320', mid: '#556b2f', lit: '#6d7d2f' },
+          brass: { DEFAULT: '#c9a227', lit: '#f0cd7a', dark: '#8c6a14' },
+          bone:  '#e8e6e1',
+          mute:  '#8b9099'
+        },
+        fontFamily: {
+          display: ['"Big Shoulders Display"', 'Impact', 'sans-serif'],
+          sans:    ['Barlow', 'system-ui', 'sans-serif'],
+          mono:    ['"JetBrains Mono"', 'ui-monospace', 'monospace']
+        }
+      }
+    }
+  }
+</script>
+
+<style>
+  html { scroll-behavior: smooth; }
+  body { -webkit-font-smoothing: antialiased; }
+
+  /* Titulares: condensados y muy cerrados, como letra estampada */
+  .h-display { font-family: 'Big Shoulders Display', Impact, sans-serif; font-weight: 800; line-height: .86; letter-spacing: -.01em; text-transform: uppercase; }
+
+  /* Etiqueta de ficha técnica */
+  .tag { font-family: 'JetBrains Mono', monospace; font-size: .68rem; letter-spacing: .18em; text-transform: uppercase; }
+
+  /* Textura de webbing MOLLE, muy tenue */
+  .webbing {
+    background-image:
+      repeating-linear-gradient(0deg, rgba(232,230,225,.045) 0 1px, transparent 1px 34px),
+      repeating-linear-gradient(90deg, rgba(232,230,225,.045) 0 1px, transparent 1px 34px);
+  }
+  .hairline { background-image: linear-gradient(90deg, #c9a227, rgba(201,162,39,0)); }
+
+  /* Placa de imagen: se ve intencional aunque la foto no cargue */
+  .plate { background: radial-gradient(120% 100% at 30% 0%, #1b2016 0%, #0f1114 60%, #0b0d10 100%); }
+
+  /* Líneas guía del diagrama del hero */
+  .leader path, .leader circle { stroke: #c9a227; fill: none; }
+  .leader path { stroke-width: 1; stroke-dasharray: 260; stroke-dashoffset: 260; animation: draw 1.1s .55s ease-out forwards; }
+  .leader circle { stroke-width: 1.4; opacity: 0; animation: dot .4s 1.5s ease-out forwards; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  @keyframes dot  { to { opacity: 1; } }
+
+  /* Secuencia de entrada del hero */
+  .rise { opacity: 0; transform: translateY(14px); animation: rise .7s cubic-bezier(.2,.7,.3,1) forwards; }
+  .rise-1 { animation-delay: .05s } .rise-2 { animation-delay: .16s } .rise-3 { animation-delay: .27s }
+  .rise-4 { animation-delay: .38s } .rise-5 { animation-delay: .5s }
+  @keyframes rise { to { opacity: 1; transform: none; } }
+
+  /* Revelado al hacer scroll */
+  .reveal { opacity: 0; transform: translateY(20px); transition: opacity .6s ease, transform .6s cubic-bezier(.2,.7,.3,1); }
+  .reveal.is-in { opacity: 1; transform: none; }
+
+  /* Cinta informativa */
+  .ticker { animation: slide 34s linear infinite; }
+  @keyframes slide { to { transform: translateX(-50%); } }
+
+  .card-img { transition: transform .6s cubic-bezier(.2,.7,.3,1), opacity .4s ease; }
+  .group:hover .card-img { transform: scale(1.06); }
+
+  :focus-visible { outline: 2px solid #f0cd7a; outline-offset: 3px; border-radius: 2px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .rise, .ticker, .leader path, .leader circle { animation: none !important; opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; }
+    .reveal { opacity: 1 !important; transform: none !important; transition: none; }
+    .card-img { transition: none; }
+  }
+</style>
+</head>
+
+<body class="bg-char text-bone font-sans antialiased selection:bg-brass selection:text-char">
+
+<!-- ══════════ CINTA SUPERIOR ══════════ -->
+<div class="border-b border-white/5 bg-gun overflow-hidden">
+  <div class="flex ticker whitespace-nowrap py-2.5 w-max">
+    <div class="flex shrink-0 items-center tag text-mute">
+      <span class="px-6">Envíos a todo el Perú</span><span class="text-brass">◆</span>
+      <span class="px-6">Garantía de calidad militar</span><span class="text-brass">◆</span>
+      <span class="px-6">Pagos seguros (Yape / Plin / Transferencia)</span><span class="text-brass">◆</span>
+      <span class="px-6">Atención directa por WhatsApp</span><span class="text-brass">◆</span>
+    </div>
+    <div class="flex shrink-0 items-center tag text-mute" aria-hidden="true">
+      <span class="px-6">Envíos a todo el Perú</span><span class="text-brass">◆</span>
+      <span class="px-6">Garantía de calidad militar</span><span class="text-brass">◆</span>
+      <span class="px-6">Pagos seguros (Yape / Plin / Transferencia)</span><span class="text-brass">◆</span>
+      <span class="px-6">Atención directa por WhatsApp</span><span class="text-brass">◆</span>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ NAVEGACIÓN ══════════ -->
+<header id="nav" class="sticky top-0 z-50 border-b border-white/5 bg-char/85 backdrop-blur-md">
+  <div class="mx-auto flex max-w-7xl items-center gap-4 px-5 py-3 lg:px-8">
+
+    <a href="#top" class="flex items-center gap-3 shrink-0">
+      <img src="patriot.jpg" alt="Patriot Tactical Perú" width="44" height="44"
+           class="h-11 w-11 rounded-sm ring-1 ring-brass/30 object-cover">
+      <span class="leading-none">
+        <span class="block h-display text-xl text-bone">Patriot Tactical</span>
+        <span class="tag text-brass/80">Perú · Equipo de grado militar</span>
+      </span>
+    </a>
+
+    <nav class="ml-auto hidden items-center gap-7 lg:flex" aria-label="Principal">
+      <a href="#categorias"  class="tag text-mute transition hover:text-bone">Categorías</a>
+      <a href="#mas-vendidos" class="tag text-mute transition hover:text-bone">Más vendidos</a>
+      <a href="#materiales"  class="tag text-mute transition hover:text-bone">Materiales</a>
+      <a href="#como-comprar" class="tag text-mute transition hover:text-bone">Cómo comprar</a>
+      <a href="#contacto"    class="tag text-mute transition hover:text-bone">Contacto</a>
+    </nav>
+
+    <a href="https://wa.me/51927477816?text=Hola%20Patriot%20Tactical%20Peru,%20deseo%20consultar%20por%20un%20producto"
+       target="_blank" rel="noopener"
+       class="ml-auto hidden items-center gap-2 rounded-sm bg-gradient-to-r from-brass-lit to-brass px-5 py-2.5 tag font-bold text-char transition hover:from-brass hover:to-brass-dark sm:flex lg:ml-0">
+      <i data-lucide="message-circle" class="h-4 w-4"></i> Pedir por WhatsApp
+    </a>
+
+    <button id="menu-btn" class="ml-auto rounded-sm border border-white/10 p-2 text-bone lg:hidden sm:ml-0"
+            aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-mobile">
+      <i data-lucide="menu" class="h-5 w-5"></i>
+    </button>
+  </div>
+
+  <div id="menu-mobile" class="hidden border-t border-white/5 bg-gun lg:hidden">
+    <nav class="mx-auto flex max-w-7xl flex-col px-5 py-2" aria-label="Menú móvil">
+      <a href="#categorias"   class="border-b border-white/5 py-3.5 tag text-mute">Categorías</a>
+      <a href="#mas-vendidos" class="border-b border-white/5 py-3.5 tag text-mute">Más vendidos</a>
+      <a href="#materiales"   class="border-b border-white/5 py-3.5 tag text-mute">Materiales</a>
+      <a href="#como-comprar" class="border-b border-white/5 py-3.5 tag text-mute">Cómo comprar</a>
+      <a href="#contacto"     class="py-3.5 tag text-mute">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ══════════ HERO — DIAGRAMA DE EQUIPO ══════════ -->
+<section class="relative overflow-hidden border-b border-white/5">
+  <div class="pointer-events-none absolute inset-0 webbing opacity-40"></div>
+  <div class="pointer-events-none absolute -right-40 top-0 h-[38rem] w-[38rem] rounded-full bg-olive/20 blur-[130px]"></div>
+
+  <div class="relative mx-auto grid max-w-7xl items-center gap-14 px-5 py-16 lg:grid-cols-[1.05fr_.95fr] lg:gap-10 lg:px-8 lg:py-24">
+
+    <!-- Columna de texto -->
+    <div>
+      <div class="rise rise-1 mb-7 flex items-center gap-3">
+        <span class="h-px w-10 hairline"></span>
+        <span class="tag text-brass">Ficha 01 · Uso diario / servicio / outdoor</span>
+      </div>
+
+      <h1 class="rise rise-2 h-display text-[3.4rem] leading-[.86] sm:text-7xl lg:text-[5.4rem]">
+        Equipo táctico<br>
+        que aguanta<br>
+        <span class="bg-gradient-to-r from-brass-lit via-brass to-brass-dark bg-clip-text text-transparent">tu turno completo</span>
+      </h1>
+
+      <p class="rise rise-3 mt-7 max-w-xl text-[1.05rem] leading-relaxed text-mute">
+        Pantalones ripstop, botas impermeables y mochilas MOLLE para quienes trabajan de pie, en la calle
+        y bajo lluvia. Te ayudamos a elegir la talla por WhatsApp y despachamos a todo el Perú.
+      </p>
+
+      <div class="rise rise-4 mt-9 flex flex-col gap-3 sm:flex-row">
+        <a href="https://wa.me/51927477816?text=Hola%20Patriot%20Tactical%20Peru,%20deseo%20consultar%20por%20un%20producto"
+           target="_blank" rel="noopener"
+           class="group flex items-center justify-center gap-2.5 rounded-sm bg-gradient-to-r from-brass-lit to-brass px-8 py-4 tag font-bold text-char shadow-lg shadow-brass/10 transition hover:from-brass hover:to-brass-dark">
+          <i data-lucide="message-circle" class="h-[18px] w-[18px]"></i> Pedir por WhatsApp
+          <i data-lucide="arrow-right" class="h-4 w-4 transition-transform group-hover:translate-x-1"></i>
+        </a>
+        <a href="#mas-vendidos"
+           class="flex items-center justify-center gap-2.5 rounded-sm border border-olive-lit/60 px-8 py-4 tag text-bone transition hover:border-brass hover:bg-olive/20">
+          <i data-lucide="package-search" class="h-[18px] w-[18px]"></i> Ver más vendidos
+        </a>
+      </div>
+
+      <dl class="rise rise-5 mt-10 grid max-w-lg grid-cols-3 gap-px overflow-hidden rounded-sm bg-white/5">
+        <div class="bg-char px-4 py-4">
+          <dt class="tag text-mute">Pago</dt>
+          <dd class="mt-1.5 font-mono text-xs text-bone">Yape · Plin<br>Transferencia</dd>
+        </div>
+        <div class="bg-char px-4 py-4">
+          <dt class="tag text-mute">Envío</dt>
+          <dd class="mt-1.5 font-mono text-xs text-bone">Lima 24–48h<br>Olva · Shalom</dd>
+        </div>
+        <div class="bg-char px-4 py-4">
+          <dt class="tag text-mute">Asesoría</dt>
+          <dd class="mt-1.5 font-mono text-xs text-bone">Tallas 1 a 1<br>por WhatsApp</dd>
+        </div>
+      </dl>
+    </div>
+
+    <!-- Columna del diagrama -->
+    <div class="rise rise-3 relative lg:pl-6">
+      <div class="relative aspect-[4/5] overflow-hidden rounded-sm plate ring-1 ring-white/10">
+        <div class="absolute inset-0 webbing opacity-60"></div>
+        <i data-lucide="shield" class="absolute left-1/2 top-1/2 h-24 w-24 -translate-x-1/2 -translate-y-1/2 text-olive-lit/25"></i>
+        <img src="https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=900&q=80"
+             alt="Uniforme y equipo táctico Patriot Tactical Perú" loading="eager"
+             class="relative h-full w-full object-cover opacity-90" data-img>
+        <div class="absolute inset-0 bg-gradient-to-t from-char via-char/25 to-transparent"></div>
+
+        <!-- Líneas guía -->
+        <svg class="leader pointer-events-none absolute inset-0 hidden h-full w-full md:block" viewBox="0 0 400 500" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M118 108 H 196"></path>
+          <path d="M282 252 H 204"></path>
+          <path d="M126 392 H 208"></path>
+          <circle cx="200" cy="108" r="3.2"></circle>
+          <circle cx="200" cy="252" r="3.2"></circle>
+          <circle cx="204" cy="392" r="3.2"></circle>
+        </svg>
+
+        <!-- Anotaciones -->
+        <div class="rise rise-5 absolute left-3 top-[17%] hidden max-w-[9.5rem] border-l border-brass/70 bg-char/85 px-3 py-2 backdrop-blur-sm md:block">
+          <p class="tag text-brass">Tejido</p>
+          <p class="mt-0.5 font-mono text-[.7rem] leading-snug text-bone">Ripstop anti-desgarro, repelente al agua</p>
+        </div>
+        <div class="rise rise-5 absolute right-3 top-[46%] hidden max-w-[9.5rem] border-r border-brass/70 bg-char/85 px-3 py-2 text-right backdrop-blur-sm md:block">
+          <p class="tag text-brass">Costura</p>
+          <p class="mt-0.5 font-mono text-[.7rem] leading-snug text-bone">Refuerzo doble en tiro y rodillas</p>
+        </div>
+        <div class="rise rise-5 absolute left-3 top-[74%] hidden max-w-[10rem] border-l border-brass/70 bg-char/85 px-3 py-2 backdrop-blur-sm md:block">
+          <p class="tag text-brass">Carga</p>
+          <p class="mt-0.5 font-mono text-[.7rem] leading-snug text-bone">Bolsillos para cargador, radio y herramientas</p>
+        </div>
+
+        <span class="tag absolute bottom-3 right-3 rounded-sm border border-white/15 bg-char/80 px-2.5 py-1 text-mute">Ref PT-IX9</span>
+      </div>
+
+      <!-- Versión móvil de las anotaciones -->
+      <ul class="mt-4 grid gap-px overflow-hidden rounded-sm bg-white/5 md:hidden">
+        <li class="flex items-baseline gap-3 bg-char px-4 py-3"><span class="tag shrink-0 text-brass">Tejido</span><span class="font-mono text-xs text-mute">Ripstop anti-desgarro, repelente al agua</span></li>
+        <li class="flex items-baseline gap-3 bg-char px-4 py-3"><span class="tag shrink-0 text-brass">Costura</span><span class="font-mono text-xs text-mute">Refuerzo doble en tiro y rodillas</span></li>
+        <li class="flex items-baseline gap-3 bg-char px-4 py-3"><span class="tag shrink-0 text-brass">Carga</span><span class="font-mono text-xs text-mute">Bolsillos para cargador y herramientas</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ BADGES DE CONFIANZA ══════════ -->
+<section class="border-b border-white/5 bg-gun">
+  <div class="mx-auto grid max-w-7xl gap-px bg-white/5 px-0 sm:grid-cols-2 lg:grid-cols-4">
+    <div class="reveal flex gap-4 bg-gun p-7">
+      <i data-lucide="truck" class="h-6 w-6 shrink-0 text-brass"></i>
+      <div>
+        <h3 class="h-display text-xl text-bone">Envíos a todo el Perú</h3>
+        <p class="mt-1 text-sm leading-relaxed text-mute">Despacho rápido en Lima Metropolitana y provincias vía Olva Courier o Shalom.</p>
+      </div>
+    </div>
+    <div class="reveal flex gap-4 bg-gun p-7">
+      <i data-lucide="shield-check" class="h-6 w-6 shrink-0 text-brass"></i>
+      <div>
+        <h3 class="h-display text-xl text-bone">Garantía de calidad militar</h3>
+        <p class="mt-1 text-sm leading-relaxed text-mute">Telas ripstop, costuras reforzadas y materiales de alta durabilidad garantizada.</p>
+      </div>
+    </div>
+    <div class="reveal flex gap-4 bg-gun p-7">
+      <i data-lucide="wallet" class="h-6 w-6 shrink-0 text-brass"></i>
+      <div>
+        <h3 class="h-display text-xl text-bone">Pagos seguros (Yape / Plin / Transferencia)</h3>
+        <p class="mt-1 text-sm leading-relaxed text-mute">Yape, Plin, transferencias BCP, BBVA e Interbank, y tarjetas de crédito o débito.</p>
+      </div>
+    </div>
+    <div class="reveal flex gap-4 bg-gun p-7">
+      <i data-lucide="headset" class="h-6 w-6 shrink-0 text-brass"></i>
+      <div>
+        <h3 class="h-display text-xl text-bone">Atención directa por WhatsApp</h3>
+        <p class="mt-1 text-sm leading-relaxed text-mute">Asesoría de tallas y seguimiento de tu pedido con una persona real, no un bot.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CATEGORÍAS ══════════ -->
+<section id="categorias" class="scroll-mt-24 border-b border-white/5">
+  <div class="mx-auto max-w-7xl px-5 py-20 lg:px-8 lg:py-28">
+
+    <div class="reveal mb-12 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+      <div>
+        <div class="mb-5 flex items-center gap-3">
+          <span class="h-px w-10 hairline"></span>
+          <span class="tag text-brass">Catálogo por línea</span>
+        </div>
+        <h2 class="h-display text-5xl lg:text-6xl">Cinco líneas,<br>una sola exigencia</h2>
+      </div>
+      <p class="max-w-md text-mute">Cada línea tiene su código de referencia. Menciónalo por WhatsApp y te enviamos fotos reales, stock y tallas disponibles en el momento.</p>
+    </div>
+
+    <div class="grid gap-4 lg:grid-cols-12">
+
+      <!-- PT -->
+      <a href="https://wa.me/51927477816?text=Hola%20Patriot%20Tactical%20Peru,%20deseo%20consultar%20por%20pantalones%20t%C3%A1cticos%20(PT)"
+         target="_blank" rel="noopener"
+         class="group reveal relative flex min-h-[22rem] flex-col justify-end overflow-hidden rounded-sm plate ring-1 ring-white/10 transition hover:ring-brass/50 lg:col-span-5 lg:min-h-[26rem]">
+        <div class="absolute inset-0 webbing opacity-50"></div>
+        <i data-lucide="shirt" class="absolute right-6 top-6 h-14 w-14 text-olive-lit/20"></i>
+        <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=900&q=80"
+             alt="Pantalones tácticos ripstop" loading="lazy"
+             class="card-img absolute inset-0 h-full w-full object-cover opacity-55" data-img>
+        <div class="absolute inset-0 bg-gradient-to-t from-char via-char/70 to-transparent"></div>
+        <div class="relative p-7">
+          <span class="tag rounded-sm border border-brass/40 px-2 py-1 text-brass">PT</span>
+          <h3 class="mt-4 h-display text-3xl">Pantalones tácticos</h3>
+          <p class="mt-2 max-w-sm text-sm text-mute">Tejido ripstop anti-desgarro, repelente al agua y bolsillos reforzados para cargadores y herramientas.</p>
+          <span class="mt-4 inline-flex items-center gap-2 tag text-brass">Consultar stock <i data-lucide="arrow-up-right" class="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"></i></span>
+        </div>
+      </a>
+
+      <!-- CB -->
+      <a href="https://wa.me/51927477816?text=Hola%20Patriot%20Tactical%20Peru,%20deseo%20consultar%20por%20botas%20militares%20(CB)"
+         target="_blank" rel="noopener"
+         class="group reveal relative flex min-h-[22rem] flex-col justify-end overflow-hidden rounded-sm plate ring-1 ring-white/10 transition hover:ring-brass/50 lg:col-span-4 lg:min-h-[26rem]">
+        <div class="absolute inset-0 webbing opacity-50"></div>
+        <i data-lucide="footprints" class="absolute right-6 top-6 h-14 w-14 text-olive-lit/20"></i>
+        <img src="https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=900&q=80"
+             alt="Botas tácticas militares" loading="lazy"
+             class="card-img absolute inset-0 h-full w-full object-cover opacity-55" data-img>
+        <div class="absolute inset-0 bg-gradient-to-t from-char via-char/70 to-transparent"></div>
+        <div class="relative p-7">
+          <span class="tag rounded-sm border border-brass/40 px-2 py-1 text-brass">CB</span>
+          <h3 class="mt-4 h-display text-3xl">Calzado y botas militares</h3>
+          <p class="mt-2 text-sm text-mute">Suela antideslizante todoterreno, soporte de tobillo ergonómico y cierre lateral rápido.</p>
+          <span class="mt-4 inline-flex items-center gap-2 tag text-brass">Consultar tallas <i data-lucide="arrow-up-right" class="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"></i></span>
+        </div>
+      </a>
+
+      <!-- CH -->
+      <a href="https://wa.me/51927477816?text=Hola%20Patriot%20Tactical%20Peru,%20deseo%20consultar%20por%20casacas%20impermeables%20(CH)"
+         target="_blank" rel="noopener"
+         class="group reveal relative flex min-h-[22rem] flex-col justify-end overflow-hidden rounded-sm plate ring-1 ring-white/10 transition hover:ring-brass/50 lg:col-span-3 lg:min-h-[26rem]">
+        <div class="absolute inset-0 webbing opacity-50"></div>
+        <i data-lucide="cloud-rain" class="absolute right-6 top-6 h-14 w-14 text-olive-lit/20"></i>
+        <img src="https://images.unsplash.com/photo-1547949003-9792a18a2601?auto=format&fit=crop&w=800&q=80"
+             alt="Casacas y chaquetas impermeables" loading="lazy"
+             class="card-img absolute inset-0 h-full w-full object-cover opacity-50" data-img>
+        <div class="absolute inset-0 bg-gradient-to-t from-char via-char/70 to-transparent"></div>
+        <div class="relative p-7">
+          <span class="tag rounded-sm border border-brass/40 px-2 py-1 text-brass">CH</span>
+          <h3 class="mt-4 h-display text-3xl">Casacas impermeables</h3>
+          <p class="mt-2 text-sm text-mute">Softshell cortaviento con forro térmico, velcros para parches y bolsillos ocultos.</p>
+          <span class="mt-4 inline-flex items-center gap-2 tag text-brass">Consultar <i data-lucide="arrow-up-right" class="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"></i></span>
+        </div>
+      </a>
+
+      <!-- MO -->
+      <a href="https://wa.me/51927477816?text=Hola%20Patriot%20Tactical%20Peru,%20deseo%20consultar%20por%20mochilas%20MOLLE%20(MO)"
+         target="_blank" rel="noopener"
+         class="group reveal relative flex min-h-[20rem] flex-col justify-end overflow-hidden rounded-sm plate ring-1 ring-white/10 transition hover:ring-brass/50 lg:col-span-7">
+        <div class="absolute inset-0 webbing opacity-50"></div>
+        <i data-lucide="backpack" class="absolute right-6 top-6 h-14 w-14 text-olive-lit/20"></i>
+        <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1100&q=80"
+             alt="Mochilas tácticas sistema MOLLE" loading="lazy"
+             class="card-img absolute inset-0 h-full w-full object-cover opacity-45" data-img>
+        <div class="absolute inset-0 bg-gradient-to-t from-char via-char/70 to-transparent"></div>
+        <div class="relative p-7">
+          <span class="tag rounded-sm border border-brass/40 px-2 py-1 text-brass">MO</span>
+          <h3 class="mt-4 h-display text-3xl">Mochilas y equipamiento MOLLE</h3>
+          <p class="mt-2 max-w-lg text-sm text-mute">Sistema MOLLE modular en Oxford 900D y 1000D impermeable, con compartimento para laptop o bolsa de hidratación.</p>
+          <span class="mt-4 inline-flex items-center gap-2 tag text-brass">Ver capacidades <i data-lucide="arrow-up-right" class="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"></i></span>
+        </div>
+      </a>
+
+      <!-- AC -->
+      <a href="https://wa.me/51927477816?text=Hola%20Patriot%20Tactical%20Peru,%20deseo%20consultar%20por%20accesorios%20t%C3%A1cticos%20(AC)"
+         target="_blank" rel="noopener"
+         class="group reveal relative flex min-h-[20rem] flex-col justify-end overflow-hidden rounded-sm plate ring-1 ring-white/10 transition hover:ring-brass/50 lg:col-span-5">
+        <div class="absolute inset-0 webbing opacity-50"></div>
+        <i data-lucide="flashlight" class="absolute right-6 top-6 h-14 w-14 text-olive-lit/20"></i>
+        <img src="https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=900&q=80"
+             alt="Accesorios tácticos: guantes, cinturones y linternas" loading="lazy"
+             class="card-img absolute inset-0 h-full w-full object-cover opacity-45" data-img>
+        <div class="absolute inset-0 bg-gradient-to-t from-char via-char/70 to-transparent"></div>
+        <div class="relative p-7">
+          <span class="tag rounded-sm border border-brass/40 px-2 py-1 text-brass">AC</span>
+          <h3 class="mt-4 h-display text-3xl">Accesorios tácticos</h3>
+          <p class="mt-2 max-w-sm text-sm text-mute">Guantes con nudillos rígidos, cinturones de liberación rápida, linternas recargables y parches.</p>
+          <span class="mt-4 inline-flex items-center gap-2 tag text-brass">Ver accesorios <i data-lucide="arrow-up-right" class="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"></i></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ MÁS VENDIDOS ══════════ -->
+<section id="mas-vendidos" class="scroll-mt-24 border-b border-white/5 bg-gun">
+  <div class="mx-auto max-w-7xl px-5 py-20 lg:px-8 lg:py-28">
+
+    <div class="reveal mb-12 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+      <div>
+        <div class="mb-5 flex items-center gap-3">
+          <span class="h-px w-10 hairline"></span>
+          <span class="tag text-brass">Los que más salen del almacén</span>
+        </div>
+        <h2 class="h-display text-5xl lg:text-6xl">Más vendidos</h2>
+      </div>
+      <p class="max-w-md text-mute">Precios en soles, con stock rotando. Confirma disponibilidad y talla por WhatsApp antes de pagar.</p>
+    </div>
+
+    <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+
+      <!-- 1 -->
+      <article class="group reveal flex flex-col overflow-hidden rounded-sm bg-char ring-1 ring-white/10 transition hover:ring-brass/40">
+        <div class="relative aspect-[4/3] overflow-hidden plate">
+          <div class="absolute inset-0 webbing opacity-60"></div>
+          <i data-lucide="shirt" class="absolute left-1/2 top-1/2 h-16 w-16 -translate-x-1/2 -translate-y-1/2 text-olive-lit/25"></i>
+          <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=800&q=80"
+               alt="Pantalón Táctico Ripstop IX9 Multibolsillos" loading="lazy"
+               class="card-img relative h-full w-full object-cover" data-img>
+          <span class="tag absolute left-3 top-3 rounded-sm bg-olive px-2.5 py-1 font-bold text-bone">Más vendido</span>
+          <span class="tag absolute right-3 top-3 rounded-sm bg-brass px-2.5 py-1 font-bold text-char">-17%</span>
+        </div>
+        <div class="flex flex-1 flex-col p-6">
+          <span class="tag text-mute">Ref PT-IX9 · Tallas 30–40</span>
+          <h3 class="mt-2 h-display text-2xl leading-tight">Pantalón Táctico Ripstop IX9 Multibolsillos</h3>
+          <ul class="mt-4 space-y-1.5 border-l border-olive-lit/50 pl-3">
+            <li class="font-mono text-[.7rem] text-mute">Tejido · Ripstop anti-desgarro</li>
+            <li class="font-mono text-[.7rem] text-mute">Acabado · Repelente al agua</li>
+            <li class="font-mono text-[.7rem] text-mute">Carga · 9 bolsillos reforzados</li>
+          </ul>
+          <div class="mt-6 flex items-end gap-3">
+            <p class="font-mono text-3xl font-bold leading-none text-brass-lit">S/. 149<span class="text-lg">.00</span></p>
+            <p class="font-mono text-sm text-mute line-through">S/. 180.00</p>
+          </div>
+          <a href="https://wa.me/51927477816?text=Hola%20Patriot%20Tactical%20Peru,%20deseo%20consultar%20por%20el%20Pantal%C3%B3n%20T%C3%A1ctico%20Ripstop%20IX9%20(Ref%20PT-IX9)%20a%20S%2F.%20149.00"
+             target="_blank" rel="noopener"
+             class="mt-5 flex items-center justify-center gap-2 rounded-sm bg-gradient-to-r from-brass-lit to-brass px-5 py-3.5 tag font-bold text-char transition hover:from-brass hover:to-brass-dark">
+            <i data-lucide="message-circle" class="h-4 w-4"></i> Pedir por WhatsApp
+          </a>
+        </div>
+      </article>
+
+      <!-- 2 -->
+      <article class="group reveal flex flex-col overflow-hidden rounded-sm bg-char ring-1 ring-white/10 transition hover:ring-brass/40">
+        <div class="relative aspect-[4/3] overflow-hidden plate">
+          <div class="absolute inset-0 webbing opacity-60"></div>
+          <i data-lucide="footprints" class="absolute left-1/2 top-1/2 h-16 w-16 -translate-x-1/2 -translate-y-1/2 text-olive-lit/25"></i>
+          <img src="https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=800&q=80"
+               alt="Botas Tácticas Delta Militares Impermeables" loading="lazy"
+               class="card-img relative h-full w-full object-cover" data-img>
+          <span class="tag absolute left-3 top-3 rounded-sm bg-olive px-2.5 py-1 font-bold text-bone">Calidad premium</span>
+          <span class="tag absolute right-3 top-3 rounded-sm bg-brass px-2.5 py-1 font-bold text-char">-15%</span>
+        </div>
+        <div class="flex flex-1 flex-col p-6">
+          <span class="tag text-mute">Ref CB-DLT · Tallas 38–44</span>
+          <h3 class="mt-2 h-display text-2xl leading-tight">Botas Tácticas Delta Militares Impermeables</h3>
+          <ul class="mt-4 space-y-1.5 border-l border-olive-lit/50 pl-3">
+            <li class="font-mono text-[.7rem] text-mute">Suela · Antideslizante todoterreno</li>
+            <li class="font-mono text-[.7rem] text-mute">Tobillo · Soporte ergonómico alto</li>
+            <li class="font-mono text-[.7rem] text-mute">Cierre · Lateral rápido con pasador</li>
+          </ul>
+          <div class="mt-6 flex items-end gap-3">
+            <p class="font-mono text-3xl font-bold leading-none text-brass-lit">S/. 229<span class="text-lg">.00</span></p>
+            <p class="font-mono text-sm text-mute line-through">S/. 270.00</p>
+          </div>
+          <a href="https://wa.me/51927477816?text=Hola%20Patriot%20Tactical%20Peru,%20deseo%20consultar%20por%20las%20Botas%20T%C3%A1cticas%20Delta%20(Ref%20CB-DLT)%20a%20S%2F.%20229.00"
+             target="_blank" rel="noopener"
+             class="mt-5 flex items-center justify-center gap-2 rounded-sm bg-gradient-to-r from-brass-lit to-brass px-5 py-3.5 tag font-bold text-char transition hover:from-brass hover:to-brass-dark">
+            <i data-lucide="message-circle" class="h-4 w-4"></i> Pedir por WhatsApp
+          </a>
+        </div>
+      </article>
+
+      <!-- 3 -->
+      <article class="group reveal flex flex-col overflow-hidden rounded-sm bg-char ring-1 ring-white/10 transition hover:ring-brass/40">
+        <div class="relative aspect-[4/3] overflow-hidden plate">
+          <div class="absolute inset-0 webbing opacity-60"></div>
+          <i data-lucide="cloud-rain" class="absolute left-1/2 top-1/2 h-16 w-16 -translate-x-1/2 -translate-y-1/2 text-olive-lit/25"></i>
+          <img src="https://images.unsplash.com/photo-1547949003-9792a18a2601?auto=format&fit=crop&w=800&q=80"
+               alt="Casaca Softshell Táctica Térmica Impermeable" loading="lazy"
+               class="card-img relative h-full w-full object-cover" data-img>
+          <span class="tag absolute left-3 top-3 rounded-sm bg-olive px-2.5 py-1 font-bold text-bone">Nueva colección</span>
+          <span class="tag absolute right-3 top-3 rounded-sm bg-brass px-2.5 py-1 font-bold text-char">-14%</span>
+        </div>
+        <div class="flex flex-1 flex-col p-6">
+          <span class="tag text-mute">Ref CH-SFT · Tallas S–XXL</span>
+          <h3 class="mt-2 h-display text-2xl leading-tight">Casaca Softshell Táctica Térmica Impermeable</h3>
+          <ul class="mt-4 space-y-1.5 border-l border-olive-lit/50 pl-3">
+            <li class="font-mono text-[.7rem] text-mute">Tela · Softshell impermeable</li>
+            <li class="font-mono text-[.7rem] text-mute">Forro · Térmico cortaviento</li>
+            <li class="font-mono text-[.7rem] text-mute">Extras · Velcros para parches</li>
+          </ul>
+          <div class="mt-6 flex items-end gap-3">
+            <p class="font-mono text-3xl font-bold leading-none text-brass-lit">S/. 189<span class="text-lg">.00</span></p>
+            <p class="font-mono text-sm text-mute line-through">S/. 220.00</p>
+          </div>
+          <a href="https://wa.me/51927477816?text=Hola%20Patriot%20Tactical%20Peru,%20deseo%20consultar%20por%20la%20Casaca%20Softshell%20T%C3%A1ctica%20(Ref%20CH-SFT)%20a%20S%2F.%20189.00"
+             target="_blank" rel="noopener"
+             class="mt-5 flex items-center justify-center gap-2 rounded-sm bg-gradient-to-r from-brass-lit to-brass px-5 py-3.5 tag font-bold text-char transition hover:from-brass hover:to-brass-dark">
+            <i data-lucide="message-circle" class="h-4 w-4"></i> Pedir por WhatsApp
+          </a>
+        </div>
+      </article>
+
+      <!-- 4 -->
+      <article class="group reveal flex flex-col overflow-hidden rounded-sm bg-char ring-1 ring-white/10 transition hover:ring-brass/40">
+        <div class="relative aspect-[4/3] overflow-hidden plate">
+          <div class="absolute inset-0 webbing opacity-60"></div>
+          <i data-lucide="backpack" class="absolute left-1/2 top-1/2 h-16 w-16 -translate-x-1/2 -translate-y-1/2 text-olive-lit/25"></i>
+          <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80"
+               alt="Mochila Táctica Militar 45L Sistema MOLLE" loading="lazy"
+               class="card-img relative h-full w-full object-cover" data-img>
+          <span class="tag absolute left-3 top-3 rounded-sm bg-olive px-2.5 py-1 font-bold text-bone">Stock limitado</span>
+          <span class="tag absolute right-3 top-3 rounded-sm bg-brass px-2.5 py-1 font-bold text-char">-16%</span>
+        </div>
+        <div class="flex flex-1 flex-col p-6">
+          <span class="tag text-mute">Ref MO-45L · Capacidad 45 L</span>
+          <h3 class="mt-2 h-display text-2xl leading-tight">Mochila Táctica Militar 45L Sistema MOLLE</h3>
+          <ul class="mt-4 space-y-1.5 border-l border-olive-lit/50 pl-3">
+            <li class="font-mono text-[.7rem] text-mute">Sistema · MOLLE modular</li>
+            <li class="font-mono text-[.7rem] text-mute">Material · Oxford 1000D impermeable</li>
+            <li class="font-mono text-[.7rem] text-mute">Interior · Laptop o hidratación</li>
+          </ul>
+          <div class="mt-6 flex items-end gap-3">
+            <p class="font-mono text-3xl font-bold leading-none text-brass-lit">S/. 159<span class="text-lg">.00</span></p>
+            <p class="font-mono text-sm text-mute line-through">S/. 190.00</p>
+          </div>
+          <a href="https://wa.me/51927477816?text=Hola%20Patriot%20Tactical%20Peru,%20deseo%20consultar%20por%20la%20Mochila%20T%C3%A1ctica%2045L%20MOLLE%20(Ref%20MO-45L)%20a%20S%2F.%20159.00"
+             target="_blank" rel="noopener"
+             class="mt-5 flex items-center justify-center gap-2 rounded-sm bg-gradient-to-r from-brass-lit to-brass px-5 py-3.5 tag font-bold text-char transition hover:from-brass hover:to-brass-dark">
+            <i data-lucide="message-circle" class="h-4 w-4"></i> Pedir por WhatsApp
+          </a>
+        </div>
+      </article>
+
+      <!-- 5 -->
+      <article class="group reveal flex flex-col overflow-hidden rounded-sm bg-char ring-1 ring-white/10 transition hover:ring-brass/40">
+        <div class="relative aspect-[4/3] overflow-hidden plate">
+          <div class="absolute inset-0 webbing opacity-60"></div>
+          <i data-lucide="hand" class="absolute left-1/2 top-1/2 h-16 w-16 -translate-x-1/2 -translate-y-1/2 text-olive-lit/25"></i>
+          <img src="https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=800&q=80"
+               alt="Guantes Tácticos Hard Knuckle Anti-Impacto" loading="lazy"
+               class="card-img relative h-full w-full object-cover" data-img>
+          <span class="tag absolute left-3 top-3 rounded-sm bg-olive px-2.5 py-1 font-bold text-bone">Accesorio clave</span>
+          <span class="tag absolute right-3 top-3 rounded-sm bg-brass px-2.5 py-1 font-bold text-char">-21%</span>
+        </div>
+        <div class="flex flex-1 flex-col p-6">
+          <span class="tag text-mute">Ref AC-GHK · Tallas M–XL</span>
+          <h3 class="mt-2 h-display text-2xl leading-tight">Guantes Tácticos Hard Knuckle Anti-Impacto</h3>
+          <ul class="mt-4 space-y-1.5 border-l border-olive-lit/50 pl-3">
+            <li class="font-mono text-[.7rem] text-mute">Protección · Nudillos rígidos TPR</li>
+            <li class="font-mono text-[.7rem] text-mute">Palma · Refuerzo antideslizante</li>
+            <li class="font-mono text-[.7rem] text-mute">Uso · Compatible con pantalla táctil</li>
+          </ul>
+          <div class="mt-6 flex items-end gap-3">
+            <p class="font-mono text-3xl font-bold leading-none text-brass-lit">S/. 59<span class="text-lg">.00</span></p>
+            <p class="font-mono text-sm text-mute line-through">S/. 75.00</p>
+          </div>
+          <a href="https://wa.me/51927477816?text=Hola%20Patriot%20Tactical%20Peru,%20deseo%20consultar%20por%20los%20Guantes%20T%C3%A1cticos%20Hard%20Knuckle%20(Ref%20AC-GHK)%20a%20S%2F.%2059.00"
+             target="_blank" rel="noopener"
+             class="mt-5 flex items-center justify-center gap-2 rounded-sm bg-gradient-to-r from-brass-lit to-brass px-5 py-3.5 tag font-bold text-char transition hover:from-brass hover:to-brass-dark">
+            <i data-lucide="message-circle" class="h-4 w-4"></i> Pedir por WhatsApp
+          </a>
+        </div>
+      </article>
+
+      <!-- 6 -->
+      <article class="group reveal flex flex-col overflow-hidden rounded-sm bg-char ring-1 ring-white/10 transition hover:ring-brass/40">
+        <div class="relative aspect-[4/3] overflow-hidden plate">
+          <div class="absolute inset-0 webbing opacity-60"></div>
+          <i data-lucide="link" class="absolute left-1/2 top-1/2 h-16 w-16 -translate-x-1/2 -translate-y-1/2 text-olive-lit/25"></i>
+          <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=800&q=80"
+               alt="Cinturón Táctico Heavy Duty con hebilla metálica" loading="lazy"
+               class="card-img relative h-full w-full object-cover" data-img>
+          <span class="tag absolute left-3 top-3 rounded-sm bg-olive px-2.5 py-1 font-bold text-bone">Recomendado</span>
+          <span class="tag absolute right-3 top-3 rounded-sm bg-brass px-2.5 py-1 font-bold text-char">-25%</span>
+        </div>
+        <div class="flex flex-1 flex-col p-6">
+          <span class="tag text-mute">Ref AC-CBH · Talla única ajustable</span>
+          <h3 class="mt-2 h-display text-2xl leading-tight">Cinturón Táctico Heavy Duty Hebilla Metálica Rápida</h3>
+          <ul class="mt-4 space-y-1.5 border-l border-olive-lit/50 pl-3">
+            <li class="font-mono text-[.7rem] text-mute">Hebilla · Metálica de liberación rápida</li>
+            <li class="font-mono text-[.7rem] text-mute">Correa · Nylon heavy duty</li>
+            <li class="font-mono text-[.7rem] text-mute">Ajuste · Hasta 125 cm de cintura</li>
+          </ul>
+          <div class="mt-6 flex items-end gap-3">
+            <p class="font-mono text-3xl font-bold leading-none text-brass-lit">S/. 45<span class="text-lg">.00</span></p>
+            <p class="font-mono text-sm text-mute line-through">S/. 60.00</p>
+          </div>
+          <a href="https://wa.me/51927477816?text=Hola%20Patriot%20Tactical%20Peru,%20deseo%20consultar%20por%20el%20Cintur%C3%B3n%20T%C3%A1ctico%20Heavy%20Duty%20(Ref%20AC-CBH)%20a%20S%2F.%2045.00"
+             target="_blank" rel="noopener"
+             class="mt-5 flex items-center justify-center gap-2 rounded-sm bg-gradient-to-r from-brass-lit to-brass px-5 py-3.5 tag font-bold text-char transition hover:from-brass hover:to-brass-dark">
+            <i data-lucide="message-circle" class="h-4 w-4"></i> Pedir por WhatsApp
+          </a>
+        </div>
+      </article>
+    </div>
+
+    <p class="reveal mt-10 text-center font-mono text-xs text-mute">
+      ¿No ves lo que buscas? Escríbenos y te enviamos el catálogo completo con stock del día.
+    </p>
+  </div>
+</section>
+
+<!-- ══════════ MATERIALES ══════════ -->
+<section id="materiales" class="relative scroll-mt-24 overflow-hidden border-b border-white/5">
+  <div class="pointer-events-none absolute inset-0 webbing opacity-30"></div>
+  <div class="pointer-events-none absolute -left-32 bottom-0 h-96 w-96 rounded-full bg-olive/20 blur-[120px]"></div>
+
+  <div class="relative mx-auto max-w-7xl px-5 py-20 lg:px-8 lg:py-28">
+    <div class="reveal mb-12 max-w-2xl">
+      <div class="mb-5 flex items-center gap-3">
+        <span class="h-px w-10 hairline"></span>
+        <span class="tag text-brass">Especificación de materiales</span>
+      </div>
+      <h2 class="h-display text-5xl lg:text-6xl">Lo que hace la diferencia<br>no se ve en la foto</h2>
+      <p class="mt-6 text-mute">Un pantalón táctico se rompe por la costura, no por la tela. Estos son los materiales que usamos y por qué importan cuando el equipo trabaja todos los días.</p>
+    </div>
+
+    <dl class="reveal grid gap-px overflow-hidden rounded-sm bg-white/10 md:grid-cols-2 lg:grid-cols-4">
+      <div class="bg-char p-7">
+        <i data-lucide="scissors" class="h-6 w-6 text-brass"></i>
+        <dt class="mt-4 h-display text-2xl">Tejido ripstop</dt>
+        <dd class="mt-2 text-sm leading-relaxed text-mute">Trama reforzada en cuadrícula: si se pica, el corte no se propaga. Repele lluvia ligera y seca rápido.</dd>
+      </div>
+      <div class="bg-char p-7">
+        <i data-lucide="git-merge" class="h-6 w-6 text-brass"></i>
+        <dt class="mt-4 h-display text-2xl">Costura reforzada</dt>
+        <dd class="mt-2 text-sm leading-relaxed text-mute">Doble pespunte en tiro, rodillas y asas, los tres puntos donde el uso diario revienta primero.</dd>
+      </div>
+      <div class="bg-char p-7">
+        <i data-lucide="layers" class="h-6 w-6 text-brass"></i>
+        <dt class="mt-4 h-display text-2xl">Oxford 900D / 1000D</dt>
+        <dd class="mt-2 text-sm leading-relaxed text-mute">Denier alto en mochilas y fundas: resiste abrasión, roce con concreto y carga sostenida.</dd>
+      </div>
+      <div class="bg-char p-7">
+        <i data-lucide="droplets" class="h-6 w-6 text-brass"></i>
+        <dt class="mt-4 h-display text-2xl">Softshell impermeable</dt>
+        <dd class="mt-2 text-sm leading-relaxed text-mute">Bloquea viento y agua sin acartonarse, con forro térmico para turnos de madrugada.</dd>
+      </div>
+    </dl>
+
+    <div class="reveal mt-5 flex flex-col items-start gap-5 rounded-sm border border-olive-lit/40 bg-olive/10 p-7 sm:flex-row sm:items-center sm:justify-between">
+      <div>
+        <h3 class="h-display text-2xl">¿Dudas con la talla?</h3>
+        <p class="mt-1 text-sm text-mute">Mándanos tu cintura, altura y talla de calzado habitual. Te decimos exactamente qué pedir.</p>
+      </div>
+      <a href="https://wa.me/51927477816?text=Hola%20Patriot%20Tactical%20Peru,%20deseo%20consultar%20por%20un%20producto"
+         target="_blank" rel="noopener"
+         class="flex shrink-0 items-center gap-2 rounded-sm border border-brass px-6 py-3.5 tag font-bold text-brass-lit transition hover:bg-brass hover:text-char">
+        <i data-lucide="ruler" class="h-4 w-4"></i> Asesoría de tallas
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CÓMO COMPRAR + PAGOS ══════════ -->
+<section id="como-comprar" class="scroll-mt-24 border-b border-white/5 bg-gun">
+  <div class="mx-auto max-w-7xl px-5 py-20 lg:px-8 lg:py-28">
+
+    <div class="reveal mb-12">
+      <div class="mb-5 flex items-center gap-3">
+        <span class="h-px w-10 hairline"></span>
+        <span class="tag text-brass">Cuatro pasos, sin carrito ni registro</span>
+      </div>
+      <h2 class="h-display text-5xl lg:text-6xl">Cómo comprar</h2>
+    </div>
+
+    <ol class="reveal grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+      <li class="relative rounded-sm bg-char p-7 ring-1 ring-white/10">
+        <span class="font-mono text-sm font-bold text-brass">01</span>
+        <h3 class="mt-3 h-display text-2xl">Elige tu producto</h3>
+        <p class="mt-2 text-sm leading-relaxed text-mute">Guarda el nombre y la referencia (por ejemplo PT-IX9) del producto que te interesa.</p>
+      </li>
+      <li class="relative rounded-sm bg-char p-7 ring-1 ring-white/10">
+        <span class="font-mono text-sm font-bold text-brass">02</span>
+        <h3 class="mt-3 h-display text-2xl">Escríbenos por WhatsApp</h3>
+        <p class="mt-2 text-sm leading-relaxed text-mute">Confirmamos stock, talla, color y el costo exacto del envío a tu distrito o provincia.</p>
+      </li>
+      <li class="relative rounded-sm bg-char p-7 ring-1 ring-white/10">
+        <span class="font-mono text-sm font-bold text-brass">03</span>
+        <h3 class="mt-3 h-display text-2xl">Paga como prefieras</h3>
+        <p class="mt-2 text-sm leading-relaxed text-mute">Yape, Plin, transferencia BCP, BBVA o Interbank, o tarjeta de crédito y débito.</p>
+      </li>
+      <li class="relative rounded-sm bg-char p-7 ring-1 ring-white/10">
+        <span class="font-mono text-sm font-bold text-brass">04</span>
+        <h3 class="mt-3 h-display text-2xl">Recibe tu pedido</h3>
+        <p class="mt-2 text-sm leading-relaxed text-mute">Despacho en Lima Metropolitana y envío a provincia por Shalom u Olva Courier, con código de seguimiento.</p>
+      </li>
+    </ol>
+
+    <div class="mt-5 grid gap-5 lg:grid-cols-2">
+      <div class="reveal rounded-sm bg-char p-7 ring-1 ring-white/10">
+        <div class="flex items-center gap-3">
+          <i data-lucide="wallet" class="h-5 w-5 text-brass"></i>
+          <h3 class="h-display text-2xl">Medios de pago</h3>
+        </div>
+        <ul class="mt-5 grid grid-cols-2 gap-px overflow-hidden rounded-sm bg-white/10 sm:grid-cols-3">
+          <li class="bg-char px-4 py-3 text-center font-mono text-xs text-bone">Yape</li>
+          <li class="bg-char px-4 py-3 text-center font-mono text-xs text-bone">Plin</li>
+          <li class="bg-char px-4 py-3 text-center font-mono text-xs text-bone">BCP</li>
+          <li class="bg-char px-4 py-3 text-center font-mono text-xs text-bone">BBVA</li>
+          <li class="bg-char px-4 py-3 text-center font-mono text-xs text-bone">Interbank</li>
+          <li class="bg-char px-4 py-3 text-center font-mono text-xs text-bone">Tarjetas</li>
+        </ul>
+        <p class="mt-4 text-sm text-mute">Te enviamos el número de cuenta o el QR por WhatsApp y confirmamos el pago al instante.</p>
+      </div>
+
+      <div class="reveal rounded-sm bg-char p-7 ring-1 ring-white/10">
+        <div class="flex items-center gap-3">
+          <i data-lucide="truck" class="h-5 w-5 text-brass"></i>
+          <h3 class="h-display text-2xl">Envíos y cobertura</h3>
+        </div>
+        <dl class="mt-5 divide-y divide-white/10">
+          <div class="flex items-baseline justify-between gap-4 py-3">
+            <dt class="text-sm text-bone">Lima Metropolitana</dt>
+            <dd class="font-mono text-xs text-mute">Entrega en 24–48 h</dd>
+          </div>
+          <div class="flex items-baseline justify-between gap-4 py-3">
+            <dt class="text-sm text-bone">Provincias</dt>
+            <dd class="font-mono text-xs text-mute">Shalom / Olva Courier</dd>
+          </div>
+          <div class="flex items-baseline justify-between gap-4 py-3">
+            <dt class="text-sm text-bone">Seguimiento</dt>
+            <dd class="font-mono text-xs text-mute">Código por WhatsApp</dd>
+          </div>
+        </dl>
+        <p class="mt-4 text-sm text-mute">Cotizamos el envío según tu agencia y distrito antes de que pagues.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CTA FINAL ══════════ -->
+<section id="contacto" class="relative scroll-mt-24 overflow-hidden border-b border-white/5">
+  <div class="pointer-events-none absolute inset-0 webbing opacity-30"></div>
+  <!-- Triquetra del logo, como marca de agua -->
+  <svg class="pointer-events-none absolute left-1/2 top-1/2 h-[30rem] w-[30rem] -translate-x-1/2 -translate-y-1/2 text-brass/10" viewBox="0 0 200 200" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true">
+    <circle cx="100" cy="72" r="42"></circle>
+    <circle cx="76"  cy="114" r="42"></circle>
+    <circle cx="124" cy="114" r="42"></circle>
+  </svg>
+
+  <div class="relative mx-auto max-w-3xl px-5 py-24 text-center lg:py-32">
+    <div class="reveal">
+      <span class="tag text-brass">Atención directa · +51 927 477 816</span>
+      <h2 class="mt-6 h-display text-5xl sm:text-6xl lg:text-7xl">Dinos qué necesitas<br>y lo alistamos hoy</h2>
+      <p class="mx-auto mt-6 max-w-xl text-mute">Escríbenos con el producto o la referencia y te respondemos con fotos reales, stock, tallas y el costo de envío a tu ciudad.</p>
+
+      <div class="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
+        <a href="https://wa.me/51927477816?text=Hola%20Patriot%20Tactical%20Peru,%20deseo%20consultar%20por%20un%20producto"
+           target="_blank" rel="noopener"
+           class="group flex w-full items-center justify-center gap-2.5 rounded-sm bg-gradient-to-r from-brass-lit to-brass px-9 py-4 tag font-bold text-char shadow-lg shadow-brass/10 transition hover:from-brass hover:to-brass-dark sm:w-auto">
+          <i data-lucide="message-circle" class="h-[18px] w-[18px]"></i> Pedir por WhatsApp
+          <i data-lucide="arrow-right" class="h-4 w-4 transition-transform group-hover:translate-x-1"></i>
+        </a>
+        <a href="tel:+51927477816"
+           class="flex w-full items-center justify-center gap-2.5 rounded-sm border border-olive-lit/60 px-9 py-4 tag text-bone transition hover:border-brass hover:bg-olive/20 sm:w-auto">
+          <i data-lucide="phone" class="h-[18px] w-[18px]"></i> Llamar ahora
+        </a>
+      </div>
+
+      <p class="mt-8 font-mono text-xs text-mute">Envíos a todo el Perú · Yape, Plin y transferencia · Garantía de calidad militar</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer class="bg-gun">
+  <div class="mx-auto max-w-7xl px-5 py-16 lg:px-8">
+    <div class="grid gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
+
+      <div>
+        <div class="flex items-center gap-3">
+          <img src="patriot.jpg" alt="Patriot Tactical Perú" width="52" height="52"
+               class="h-[52px] w-[52px] rounded-sm ring-1 ring-brass/30 object-cover">
+          <span class="leading-none">
+            <span class="block h-display text-2xl">Patriot Tactical</span>
+            <span class="tag text-brass/80">Perú</span>
+          </span>
+        </div>
+        <p class="mt-5 max-w-sm text-sm leading-relaxed text-mute">
+          Ropa táctica, calzado militar, mochilas MOLLE y equipamiento outdoor para personal de seguridad,
+          fuerzas del orden, airsoft y uso diario en todo el Perú.
+        </p>
+        <div class="mt-6 flex gap-3">
+          <a href="https://www.instagram.com/patriot_tacticalperu/?hl=en" target="_blank" rel="noopener"
+             aria-label="Instagram de Patriot Tactical Perú"
+             class="rounded-sm border border-white/10 p-2.5 text-mute transition hover:border-brass hover:text-brass">
+            <i data-lucide="instagram" class="h-[18px] w-[18px]"></i>
+          </a>
+          <a href="https://www.facebook.com/Patriot.tacticalPeru/" target="_blank" rel="noopener"
+             aria-label="Facebook de Patriot Tactical Perú"
+             class="rounded-sm border border-white/10 p-2.5 text-mute transition hover:border-brass hover:text-brass">
+            <i data-lucide="facebook" class="h-[18px] w-[18px]"></i>
+          </a>
+          <a href="https://wa.me/51927477816?text=Hola%20Patriot%20Tactical%20Peru,%20deseo%20consultar%20por%20un%20producto"
+             target="_blank" rel="noopener" aria-label="WhatsApp de Patriot Tactical Perú"
+             class="rounded-sm border border-white/10 p-2.5 text-mute transition hover:border-brass hover:text-brass">
+            <i data-lucide="message-circle" class="h-[18px] w-[18px]"></i>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="tag text-brass">Categorías</h3>
+        <ul class="mt-5 space-y-3 text-sm text-mute">
+          <li><a href="#categorias" class="transition hover:text-bone">Pantalones tácticos</a></li>
+          <li><a href="#categorias" class="transition hover:text-bone">Calzado y botas militares</a></li>
+          <li><a href="#categorias" class="transition hover:text-bone">Casacas impermeables</a></li>
+          <li><a href="#categorias" class="transition hover:text-bone">Mochilas y MOLLE</a></li>
+          <li><a href="#categorias" class="transition hover:text-bone">Accesorios tácticos</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="tag text-brass">Compra</h3>
+        <ul class="mt-5 space-y-3 text-sm text-mute">
+          <li><a href="#mas-vendidos" class="transition hover:text-bone">Más vendidos</a></li>
+          <li><a href="#materiales" class="transition hover:text-bone">Materiales y calidad</a></li>
+          <li><a href="#como-comprar" class="transition hover:text-bone">Cómo comprar</a></li>
+          <li><a href="#como-comprar" class="transition hover:text-bone">Envíos y cobertura</a></li>
+          <li><a href="#como-comprar" class="transition hover:text-bone">Medios de pago</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="tag text-brass">Contacto</h3>
+        <ul class="mt-5 space-y-3 text-sm text-mute">
+          <li><a href="https://wa.me/51927477816?text=Hola%20Patriot%20Tactical%20Peru,%20deseo%20consultar%20por%20un%20producto" target="_blank" rel="noopener" class="font-mono transition hover:text-bone">+51 927 477 816</a></li>
+          <li class="font-mono text-xs">Lun a Sáb · 9:00 – 20:00</li>
+          <li class="font-mono text-xs">Lima, Perú</li>
+          <li class="font-mono text-xs">Envíos a nivel nacional</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-14 flex flex-col items-center gap-3 border-t border-white/10 pt-7 sm:flex-row sm:justify-between">
+      <p class="font-mono text-xs text-mute">© <span id="year">2026</span> Patriot Tactical Perú. Todos los derechos reservados.</p>
+      <p class="font-mono text-xs text-mute">Precios en soles peruanos (S/.) · Incluyen IGV</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════ BOTÓN FLOTANTE WHATSAPP ══════════ -->
+<a href="https://wa.me/51927477816?text=Hola%20Patriot%20Tactical%20Peru,%20deseo%20consultar%20por%20un%20producto"
+   target="_blank" rel="noopener"
+   class="group fixed bottom-5 right-5 z-50 flex items-center gap-3 rounded-full bg-[#25D366] px-4 py-4 text-char shadow-xl shadow-black/40 transition hover:pr-6 sm:bottom-7 sm:right-7"
+   aria-label="Escribir por WhatsApp a Patriot Tactical Perú">
+  <i data-lucide="message-circle" class="h-6 w-6"></i>
+  <span class="hidden tag font-bold sm:inline">Escríbenos</span>
+</a>
+
+<!-- Lucide Icons -->
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  // Iconos
+  if (window.lucide) lucide.createIcons();
+
+  // Año actual
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Menú móvil
+  (function () {
+    var btn = document.getElementById('menu-btn');
+    var menu = document.getElementById('menu-mobile');
+    btn.addEventListener('click', function () {
+      var open = menu.classList.toggle('hidden') === false;
+      btn.setAttribute('aria-expanded', String(open));
+    });
+    menu.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () {
+        menu.classList.add('hidden');
+        btn.setAttribute('aria-expanded', 'false');
+      });
+    });
+  })();
+
+  // Si una foto no carga, queda la placa táctica de fondo (icono + textura)
+  document.querySelectorAll('[data-img]').forEach(function (img) {
+    img.addEventListener('error', function () { img.style.display = 'none'; });
+  });
+
+  // Revelado al hacer scroll
+  (function () {
+    var items = document.querySelectorAll('.reveal');
+    var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduced || !('IntersectionObserver' in window)) {
+      items.forEach(function (el) { el.classList.add('is-in'); });
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); }
+      });
+    }, { rootMargin: '0px 0px -12% 0px', threshold: 0.1 });
+    items.forEach(function (el) { io.observe(el); });
+  })();
+</script>
+
+<!-- Datos estructurados -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "Patriot Tactical Perú",
+  "description": "Tienda de ropa táctica, calzado militar, mochilas MOLLE y equipamiento outdoor con envíos a todo el Perú.",
+  "image": "patriot.jpg",
+  "telephone": "+51927477816",
+  "priceRange": "S/. 45 - S/. 229",
+  "currenciesAccepted": "PEN",
+  "paymentAccepted": "Yape, Plin, Transferencia bancaria, Tarjeta de crédito, Tarjeta de débito",
+  "address": { "@type": "PostalAddress", "addressCountry": "PE", "addressLocality": "Lima" },
+  "areaServed": { "@type": "Country", "name": "Perú" },
+  "sameAs": [
+    "https://www.instagram.com/patriot_tacticalperu/",
+    "https://www.facebook.com/Patriot.tacticalPeru/"
+  ],
+  "makesOffer": [
+    { "@type": "Offer", "priceCurrency": "PEN", "price": "149.00", "itemOffered": { "@type": "Product", "name": "Pantalón Táctico Ripstop IX9 Multibolsillos", "sku": "PT-IX9" } },
+    { "@type": "Offer", "priceCurrency": "PEN", "price": "229.00", "itemOffered": { "@type": "Product", "name": "Botas Tácticas Delta Militares Impermeables", "sku": "CB-DLT" } },
+    { "@type": "Offer", "priceCurrency": "PEN", "price": "189.00", "itemOffered": { "@type": "Product", "name": "Casaca Softshell Táctica Térmica Impermeable", "sku": "CH-SFT" } },
+    { "@type": "Offer", "priceCurrency": "PEN", "price": "159.00", "itemOffered": { "@type": "Product", "name": "Mochila Táctica Militar 45L Sistema MOLLE", "sku": "MO-45L" } },
+    { "@type": "Offer", "priceCurrency": "PEN", "price": "59.00", "itemOffered": { "@type": "Product", "name": "Guantes Tácticos Hard Knuckle Anti-Impacto", "sku": "AC-GHK" } },
+    { "@type": "Offer", "priceCurrency": "PEN", "price": "45.00", "itemOffered": { "@type": "Product", "name": "Cinturón Táctico Heavy Duty Hebilla Metálica Rápida", "sku": "AC-CBH" } }
+  ]
+}
+</script>
+</body>
+</html>
