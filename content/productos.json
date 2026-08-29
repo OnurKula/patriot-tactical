@@ -2,14 +2,14 @@
   "productos": [
     {
       "title": "Pantalón Táctico Ripstop IX9 Multibolsillos",
-      "price": 149,
+      "price": 180,
       "category": "Pantalones",
       "material": "Tejido ripstop anti-desgarro repelente al agua",
       "image": "/images/uploads/pantalon.avif",
       "active": true,
       "ref": "PT-IX9",
       "sizes": "Tallas 30–40",
-      "old_price": 180,
+      "old_price": 250,
       "badge": "Más vendido",
       "specs": [
         "Tejido · Ripstop anti-desgarro",
