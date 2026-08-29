@@ -227,7 +227,7 @@
       <div class="relative aspect-[4/5] overflow-hidden rounded-sm plate ring-1 ring-white/10">
         <div class="absolute inset-0 webbing opacity-60"></div>
         <i data-lucide="shield" class="absolute left-1/2 top-1/2 h-24 w-24 -translate-x-1/2 -translate-y-1/2 text-olive-lit/25"></i>
-        <img src="/images/uploads/bota.avif"
+        <img src="https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=900&q=80"
              alt="Uniforme y equipo táctico Patriot Tactical Perú" loading="eager"
              class="relative h-full w-full object-cover opacity-90" data-img>
         <div class="absolute inset-0 bg-gradient-to-t from-char via-char/25 to-transparent"></div>
@@ -326,7 +326,7 @@
          class="group reveal relative flex min-h-[22rem] flex-col justify-end overflow-hidden rounded-sm plate ring-1 ring-white/10 transition hover:ring-brass/50 lg:col-span-5 lg:min-h-[26rem]">
         <div class="absolute inset-0 webbing opacity-50"></div>
         <i data-lucide="shirt" class="absolute right-6 top-6 h-14 w-14 text-olive-lit/20"></i>
-        <img src="/images/uploads/pantalon.avif"
+        <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=900&q=80"
              alt="Pantalones tácticos ripstop" loading="lazy"
              class="card-img absolute inset-0 h-full w-full object-cover opacity-55" data-img>
         <div class="absolute inset-0 bg-gradient-to-t from-char via-char/70 to-transparent"></div>
@@ -344,7 +344,7 @@
          class="group reveal relative flex min-h-[22rem] flex-col justify-end overflow-hidden rounded-sm plate ring-1 ring-white/10 transition hover:ring-brass/50 lg:col-span-4 lg:min-h-[26rem]">
         <div class="absolute inset-0 webbing opacity-50"></div>
         <i data-lucide="footprints" class="absolute right-6 top-6 h-14 w-14 text-olive-lit/20"></i>
-        <img src="/images/uploads/bota.avif"
+        <img src="https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=900&q=80"
              alt="Botas tácticas militares" loading="lazy"
              class="card-img absolute inset-0 h-full w-full object-cover opacity-55" data-img>
         <div class="absolute inset-0 bg-gradient-to-t from-char via-char/70 to-transparent"></div>
@@ -362,7 +362,7 @@
          class="group reveal relative flex min-h-[22rem] flex-col justify-end overflow-hidden rounded-sm plate ring-1 ring-white/10 transition hover:ring-brass/50 lg:col-span-3 lg:min-h-[26rem]">
         <div class="absolute inset-0 webbing opacity-50"></div>
         <i data-lucide="cloud-rain" class="absolute right-6 top-6 h-14 w-14 text-olive-lit/20"></i>
-        <img src="/images/uploads/casaca.avif"
+        <img src="https://images.unsplash.com/photo-1547949003-9792a18a2601?auto=format&fit=crop&w=800&q=80"
              alt="Casacas y chaquetas impermeables" loading="lazy"
              class="card-img absolute inset-0 h-full w-full object-cover opacity-50" data-img>
         <div class="absolute inset-0 bg-gradient-to-t from-char via-char/70 to-transparent"></div>
@@ -380,7 +380,7 @@
          class="group reveal relative flex min-h-[20rem] flex-col justify-end overflow-hidden rounded-sm plate ring-1 ring-white/10 transition hover:ring-brass/50 lg:col-span-7">
         <div class="absolute inset-0 webbing opacity-50"></div>
         <i data-lucide="backpack" class="absolute right-6 top-6 h-14 w-14 text-olive-lit/20"></i>
-        <img src="/images/uploads/mochila.avif"
+        <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1100&q=80"
              alt="Mochilas tácticas sistema MOLLE" loading="lazy"
              class="card-img absolute inset-0 h-full w-full object-cover opacity-45" data-img>
         <div class="absolute inset-0 bg-gradient-to-t from-char via-char/70 to-transparent"></div>
@@ -398,7 +398,7 @@
          class="group reveal relative flex min-h-[20rem] flex-col justify-end overflow-hidden rounded-sm plate ring-1 ring-white/10 transition hover:ring-brass/50 lg:col-span-5">
         <div class="absolute inset-0 webbing opacity-50"></div>
         <i data-lucide="flashlight" class="absolute right-6 top-6 h-14 w-14 text-olive-lit/20"></i>
-        <img src="/images/uploads/accesorio.avif"
+        <img src="https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=900&q=80"
              alt="Accesorios tácticos: guantes, cinturones y linternas" loading="lazy"
              class="card-img absolute inset-0 h-full w-full object-cover opacity-45" data-img>
         <div class="absolute inset-0 bg-gradient-to-t from-char via-char/70 to-transparent"></div>
@@ -440,7 +440,7 @@
         <div class="relative aspect-[4/3] overflow-hidden plate">
           <div class="absolute inset-0 webbing opacity-60"></div>
           <i data-lucide="shirt" class="absolute left-1/2 top-1/2 h-16 w-16 -translate-x-1/2 -translate-y-1/2 text-olive-lit/25"></i>
-          <img src="/images/uploads/pantalon.avif"
+          <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=800&q=80"
                alt="Pantalón Táctico Ripstop IX9 Multibolsillos" loading="lazy"
                class="card-img relative h-full w-full object-cover" data-img>
           <span class="tag absolute left-3 top-3 rounded-sm bg-olive px-2.5 py-1 font-bold text-bone">Más vendido</span>
@@ -471,7 +471,7 @@
         <div class="relative aspect-[4/3] overflow-hidden plate">
           <div class="absolute inset-0 webbing opacity-60"></div>
           <i data-lucide="footprints" class="absolute left-1/2 top-1/2 h-16 w-16 -translate-x-1/2 -translate-y-1/2 text-olive-lit/25"></i>
-          <img src="/images/uploads/bota.avif"
+          <img src="https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=800&q=80"
                alt="Botas Tácticas Delta Militares Impermeables" loading="lazy"
                class="card-img relative h-full w-full object-cover" data-img>
           <span class="tag absolute left-3 top-3 rounded-sm bg-olive px-2.5 py-1 font-bold text-bone">Calidad premium</span>
@@ -502,7 +502,7 @@
         <div class="relative aspect-[4/3] overflow-hidden plate">
           <div class="absolute inset-0 webbing opacity-60"></div>
           <i data-lucide="cloud-rain" class="absolute left-1/2 top-1/2 h-16 w-16 -translate-x-1/2 -translate-y-1/2 text-olive-lit/25"></i>
-          <img src="/images/uploads/casaca.avif"
+          <img src="https://images.unsplash.com/photo-1547949003-9792a18a2601?auto=format&fit=crop&w=800&q=80"
                alt="Casaca Softshell Táctica Térmica Impermeable" loading="lazy"
                class="card-img relative h-full w-full object-cover" data-img>
           <span class="tag absolute left-3 top-3 rounded-sm bg-olive px-2.5 py-1 font-bold text-bone">Nueva colección</span>
@@ -533,7 +533,7 @@
         <div class="relative aspect-[4/3] overflow-hidden plate">
           <div class="absolute inset-0 webbing opacity-60"></div>
           <i data-lucide="backpack" class="absolute left-1/2 top-1/2 h-16 w-16 -translate-x-1/2 -translate-y-1/2 text-olive-lit/25"></i>
-          <img src="/images/uploads/mochila.avif"
+          <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80"
                alt="Mochila Táctica Militar 45L Sistema MOLLE" loading="lazy"
                class="card-img relative h-full w-full object-cover" data-img>
           <span class="tag absolute left-3 top-3 rounded-sm bg-olive px-2.5 py-1 font-bold text-bone">Stock limitado</span>
@@ -564,7 +564,7 @@
         <div class="relative aspect-[4/3] overflow-hidden plate">
           <div class="absolute inset-0 webbing opacity-60"></div>
           <i data-lucide="hand" class="absolute left-1/2 top-1/2 h-16 w-16 -translate-x-1/2 -translate-y-1/2 text-olive-lit/25"></i>
-          <img src="/images/uploads/accesorio.avif"
+          <img src="https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=800&q=80"
                alt="Guantes Tácticos Hard Knuckle Anti-Impacto" loading="lazy"
                class="card-img relative h-full w-full object-cover" data-img>
           <span class="tag absolute left-3 top-3 rounded-sm bg-olive px-2.5 py-1 font-bold text-bone">Accesorio clave</span>
@@ -595,7 +595,7 @@
         <div class="relative aspect-[4/3] overflow-hidden plate">
           <div class="absolute inset-0 webbing opacity-60"></div>
           <i data-lucide="link" class="absolute left-1/2 top-1/2 h-16 w-16 -translate-x-1/2 -translate-y-1/2 text-olive-lit/25"></i>
-          <img src="/images/uploads/cinturon.avif"
+          <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=800&q=80"
                alt="Cinturón Táctico Heavy Duty con hebilla metálica" loading="lazy"
                class="card-img relative h-full w-full object-cover" data-img>
           <span class="tag absolute left-3 top-3 rounded-sm bg-olive px-2.5 py-1 font-bold text-bone">Recomendado</span>
@@ -885,6 +885,9 @@
   // Iconos
   if (window.lucide) lucide.createIcons();
 
+  // Año actual
+  document.getElementById('year').textContent = new Date().getFullYear();
+
   // Menú móvil
   (function () {
     var btn = document.getElementById('menu-btn');
@@ -1019,20 +1022,23 @@
 
   json(ARCHIVO)
     .then(function (datos) {
+      // Acepta { "productos": [...] } o directamente un array
       var lista = Array.isArray(datos) ? datos : (datos && datos.productos) || [];
       var productos = lista.filter(function (p) { return p && p.active === true && p.title; });
+      // Si no hay nada publicado, se conservan las tarjetas base del HTML
       if (!productos.length) return;
       grid.innerHTML = productos.map(tarjeta).join('');
       if (window.lucide) lucide.createIcons();
       initReveal(grid);
     })
     .catch(function () {
-      // Sin datos: quedan las tarjetas base del HTML
+      // Sin datos (o abierto con file://): quedan las tarjetas base del HTML
     });
 })();
 </script>
 
-<!-- Reenvía los enlaces de invitación / recuperación de Netlify Identity al panel -->
+<!-- Reenvía los enlaces de invitación / recuperación de Netlify Identity al panel,
+     sin cargar el widget de Identity para los visitantes de la tienda -->
 <script>
   (function () {
     var h = window.location.hash || '';
