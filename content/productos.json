@@ -1,0 +1,106 @@
+{
+  "productos": [
+    {
+      "title": "Pantalón Táctico Ripstop IX9 Multibolsillos",
+      "price": 149,
+      "category": "Pantalones",
+      "material": "Tejido ripstop anti-desgarro repelente al agua",
+      "image": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=800&q=80",
+      "active": true,
+      "ref": "PT-IX9",
+      "sizes": "Tallas 30–40",
+      "old_price": 180,
+      "badge": "Más vendido",
+      "specs": [
+        "Tejido · Ripstop anti-desgarro",
+        "Acabado · Repelente al agua",
+        "Carga · 9 bolsillos reforzados"
+      ]
+    },
+    {
+      "title": "Botas Tácticas Delta Militares Impermeables",
+      "price": 229,
+      "category": "Calzado",
+      "material": "Cuero y nylon con suela antideslizante todoterreno",
+      "image": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=800&q=80",
+      "active": true,
+      "ref": "CB-DLT",
+      "sizes": "Tallas 38–44",
+      "old_price": 270,
+      "badge": "Calidad premium",
+      "specs": [
+        "Suela · Antideslizante todoterreno",
+        "Tobillo · Soporte ergonómico alto",
+        "Cierre · Lateral rápido con pasador"
+      ]
+    },
+    {
+      "title": "Casaca Softshell Táctica Térmica Impermeable",
+      "price": 189,
+      "category": "Casacas",
+      "material": "Softshell impermeable con forro térmico cortaviento",
+      "image": "https://images.unsplash.com/photo-1547949003-9792a18a2601?auto=format&fit=crop&w=800&q=80",
+      "active": true,
+      "ref": "CH-SFT",
+      "sizes": "Tallas S–XXL",
+      "old_price": 220,
+      "badge": "Nueva colección",
+      "specs": [
+        "Tela · Softshell impermeable",
+        "Forro · Térmico cortaviento",
+        "Extras · Velcros para parches"
+      ]
+    },
+    {
+      "title": "Mochila Táctica Militar 45L Sistema MOLLE",
+      "price": 159,
+      "category": "Mochilas",
+      "material": "Oxford 1000D impermeable con sistema MOLLE modular",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+      "active": true,
+      "ref": "MO-45L",
+      "sizes": "Capacidad 45 L",
+      "old_price": 190,
+      "badge": "Stock limitado",
+      "specs": [
+        "Sistema · MOLLE modular",
+        "Material · Oxford 1000D impermeable",
+        "Interior · Laptop o hidratación"
+      ]
+    },
+    {
+      "title": "Guantes Tácticos Hard Knuckle Anti-Impacto",
+      "price": 59,
+      "category": "Accesorios",
+      "material": "Nylon reforzado con nudillos rígidos de TPR",
+      "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=800&q=80",
+      "active": true,
+      "ref": "AC-GHK",
+      "sizes": "Tallas M–XL",
+      "old_price": 75,
+      "badge": "Accesorio clave",
+      "specs": [
+        "Protección · Nudillos rígidos TPR",
+        "Palma · Refuerzo antideslizante",
+        "Uso · Compatible con pantalla táctil"
+      ]
+    },
+    {
+      "title": "Cinturón Táctico Heavy Duty Hebilla Metálica Rápida",
+      "price": 45,
+      "category": "Accesorios",
+      "material": "Correa de nylon heavy duty con hebilla metálica",
+      "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=800&q=80",
+      "active": true,
+      "ref": "AC-CBH",
+      "sizes": "Talla única ajustable",
+      "old_price": 60,
+      "badge": "Recomendado",
+      "specs": [
+        "Hebilla · Metálica de liberación rápida",
+        "Correa · Nylon heavy duty",
+        "Ajuste · Hasta 125 cm de cintura"
+      ]
+    }
+  ]
+}

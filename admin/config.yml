@@ -1,0 +1,50 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+locale: "es"
+
+collections:
+  # Un solo archivo con todo el catálogo: agregar, ordenar (arrastrando) y
+  # eliminar productos se hace desde la lista, sin archivos ni índices sueltos.
+  - name: "catalogo"
+    label: "Catálogo"
+    files:
+      - name: "productos"
+        label: "Productos"
+        file: "content/productos.json"
+        description: >-
+          Cada fila es un producto de la web. Usa el ícono de basurero para eliminar,
+          "Agregar Productos" para crear uno nuevo y arrastra las filas para cambiar
+          el orden en que aparecen en la tienda. Desmarca "Activo" para ocultar un
+          producto sin borrarlo.
+        fields:
+          - name: "productos"
+            label: "Productos"
+            label_singular: "Producto"
+            widget: "list"
+            allow_add: true
+            collapsed: true
+            minimize_collapsed: true
+            summary: "{{fields.title}} — S/. {{fields.price}}"
+            fields:
+              # ── Campos principales ──────────────────────────────────────
+              - { name: "title", label: "Título", widget: "string" }
+              - { name: "price", label: "Precio (S/.)", widget: "number", value_type: "float", min: 0, step: 0.5 }
+              - name: "category"
+                label: "Categoría"
+                widget: "select"
+                options: ["Calzado", "Pantalones", "Casacas", "Mochilas", "Accesorios"]
+              - { name: "material", label: "Material", widget: "string", hint: "Ej: Tejido ripstop anti-desgarro" }
+              - { name: "image", label: "Imagen", widget: "image", required: false, hint: "Si se deja vacío, la tarjeta muestra la placa táctica con el ícono de la categoría." }
+              - { name: "active", label: "Activo (visible en la web)", widget: "boolean", default: true }
+
+              # ── Campos opcionales que alimentan el diseño de la tarjeta ─
+              - { name: "ref", label: "Referencia", widget: "string", required: false, hint: "Ej: PT-IX9" }
+              - { name: "sizes", label: "Tallas", widget: "string", required: false, hint: "Ej: Tallas 30–40" }
+              - { name: "old_price", label: "Precio anterior (S/.)", widget: "number", value_type: "float", required: false, hint: "Si es mayor al precio, la tarjeta calcula el % de descuento." }
+              - { name: "badge", label: "Etiqueta", widget: "string", required: false, hint: "Ej: Más vendido, Stock limitado" }
+              - { name: "specs", label: "Ficha técnica", widget: "list", required: false, hint: "Una línea por dato. Ej: Tejido · Ripstop anti-desgarro" }
