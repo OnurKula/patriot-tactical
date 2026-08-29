@@ -101,6 +101,23 @@
         "Correa · Nylon heavy duty",
         "Ajuste · Hasta 125 cm de cintura"
       ]
+    },
+    {
+      "title": "Pantalón Táctico Ripstop IX9 Multibolsillos",
+      "price": 125,
+      "category": "Pantalones",
+      "material": "Tejido ripstop anti-desgarro repelente al agua",
+      "image": "/images/uploads/pantalon.avif",
+      "active": true,
+      "ref": "PT-IX9",
+      "sizes": "Tallas 30–40",
+      "old_price": 250,
+      "badge": "Más vendido",
+      "specs": [
+        "Tejido · Ripstop anti-desgarro",
+        "Acabado · Repelente al agua",
+        "Carga · 9 bolsillos reforzados"
+      ]
     }
   ]
 }
